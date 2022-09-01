@@ -59,9 +59,52 @@ def test2():
                 print("WRONG!!Explanation: The order of precedence is: %, +. Hence the expression above, on simplification results in 4 + 3 = 7. Hence the result is 7.")
 
 
+def test3():
+    print("Which keyword is used for function in Python language?")
+    print("1.Function")
+    print("2.Def")
+    print("3.Fun")
+    print("4.Define")
+
+    answer = 2
+    guess = int(input())
+    if (guess == answer):
+        print("CORRECT!!")
+    elif (guess != answer):
+        print("WRONG!!Explanation: Answe is Def")
+
+def test4():
+
+            print("What is the order of precedence in python?")
+            print("1.Exponential, Parentheses, Multiplication, Division, Addition, Subtraction")
+            print("2.Exponential, Parentheses, Division, Multiplication, Addition, Subtraction")
+            print("3.Parentheses, Exponential, Multiplication, Division, Subtraction, Addition")
+            print("4.Parentheses, Exponential, Multiplication, Division, Addition, Subtraction")
+
+            answer = 4
+            guess = int(input())
+            if (guess == answer):
+                print("CORRECT!!")
+            elif (guess != answer):
+                print("WRONG!!Explanation: For order of precedence, just remember this PEMDAS (similar to BODMAS).")
+def test5():
+
+            print("Which of the following is not a core data type in Python programming?")
+            print("1.Tuples")
+            print("2.Lists")
+            print("3.Class")
+            print("4. Dictionary")
+
+            answer = 3
+            guess = int(input())
+            if (guess == answer):
+                print("CORRECT!!")
+            elif (guess != answer):
+                print("WRONG!!Explanation: Class is a user-defined data type.")
+
 
 def end():
-        print(' have a nice day!')
+        print(' HAVE A NICE DAY!, KEEP PRACTICING!!!')
         print('.................................')
         print('.................................')
         print('.................................')
@@ -74,4 +117,7 @@ guess_age()
 count()
 test1()
 test2()
+test3()
+test4()
+test5()
 end()
