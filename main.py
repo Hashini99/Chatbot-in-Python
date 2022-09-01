@@ -24,7 +24,7 @@ def count():
 
         counter = 0
         while counter <= num:
-            print("{0} !".format(counter))
+            print("{0} ".format(counter))
             counter += 1
 
 def test1():
