@@ -111,7 +111,7 @@ def end():
         input()
 
 
-welcome('ABC','2022')
+welcome('Chatty','2022')
 guess_name()
 guess_age()
 count()
